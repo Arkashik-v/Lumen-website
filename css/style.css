@@ -6,14 +6,22 @@
 
 :root {
     --main-font-family: "Inter", sans-serif;
-    --background-color: #FFF5F0;
+    --background-color: #fff5f0;
+    --shadow: #451D00;
+    --white: #ffffff;
+    --black: #1a0b00;
+    --orange: #ff7931;
 }
 
 .container {
     position: relative;
     max-width: 1240px;
     margin: 0 auto;
-    background-color: blueviolet;
+}
+
+header {
+    box-shadow: var(--shadow);
+    background-color: var(--background-color);
 }
 
 body {
